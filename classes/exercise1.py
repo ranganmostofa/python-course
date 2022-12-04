@@ -1,9 +1,9 @@
 class Calculator:
 
-    def add(self, *args):
+    def add(*args):
         return sum(args)
 
-    def multiply(self, *args):
+    def multiply(*args):
         x = 1
         for number in args:
             x *= number
