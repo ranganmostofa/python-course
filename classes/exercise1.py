@@ -15,5 +15,5 @@ class Calculator:
 
 easycalc = Calculator()
 # print(easycalc.multiply(3,4))
-print(easycalc.add(5,10,15,30))
-print(easycalc.multiply(1,2,3,43))
+# print(easycalc.add(5,10,15,30))
+# print(easycalc.multiply(1,2,3,43))
