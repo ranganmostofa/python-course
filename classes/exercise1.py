@@ -1,9 +1,17 @@
 class Calculator:
 
-    def add(self, *args):
+    def __init__(self):
+        pass
+
+    @staticmethod
+    def add(*args):
+        """
+        Comment here
+        """
         return sum(args)
 
-    def multiply(self, *args):
+    @staticmethod
+    def multiply(*args):
         x = 1
         for number in args:
             x *= number
@@ -11,6 +19,6 @@ class Calculator:
         return x
 
 
-example1 = Calculator()
-print(example1.add(1, 2, 3, 4, 5))
-print(example1.multiply(2, 3, 6, 8, 9))
+# example1 = Calculator()
+print(Calculator.add(1, 2, 3, 4, 5))
+print(Calculator.multiply(2, 3, 6, 8, 9))
