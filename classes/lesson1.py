@@ -14,6 +14,9 @@ class Mammal:
     def __str__(self):
         return self.name
 
+    def __add__(self, other):
+        return self.name, other.name
+
     def eat(self):
         pass
 
@@ -75,3 +78,5 @@ dog = Dog("Kodiak", 2, "male")
 dog.do_life()
 
 print(dog)
+
+print(dog + jason)
