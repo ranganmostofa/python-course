@@ -2,6 +2,9 @@ class Calculator:
     """
     Implement a calculator that does addition and multiplication
     """
+    def __init__(self):
+        pass
+
     def multiply(self, *args):
         product = 1
         for num in args:
