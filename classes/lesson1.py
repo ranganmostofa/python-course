@@ -11,6 +11,9 @@ class Mammal:
         self.args = args
         self.kwargs = kwargs
 
+    def __eq__(self, other):
+        pass
+
     def __str__(self):
         return self.name
 
