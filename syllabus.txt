@@ -5,7 +5,7 @@
 5. loops
 6. lists (done)
 7. sets (done)
-8. dictionaries
+8. dictionaries (done)
 9. lambdas
 10. generators
 11. collections data structures

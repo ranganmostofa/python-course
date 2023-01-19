@@ -13,6 +13,8 @@ class Document:
         self.idno = idno
         # self.text = load_from_backend_db(idno)
 
+empty_set = set()
+print(empty_set)
 
 list2 = [Number(1), Number(2), Number(2)]
 print(list2)
