@@ -1,4 +1,3 @@
-
 i = 0
 listnum = []
 while i != 5:
