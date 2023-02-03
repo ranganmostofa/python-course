@@ -1,7 +1,6 @@
 i = 0
 listnum = []
-num = ""
-while num != "done":
+while True:
     num = input("Enter a number: ")
     if num == "done":
         break
