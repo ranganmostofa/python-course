@@ -1,4 +1,3 @@
-i = 0
 listnum = []
 while True:
     num = input("Enter a number: ")
