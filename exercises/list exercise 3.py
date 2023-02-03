@@ -1,8 +1,10 @@
 i = 0
 listnum = []
-while i != 5:
-    num = int(input("Enter a number: "))
-    listnum.append(num)
-    i += 1
+num = ""
+while num != "done":
+    num = input("Enter a number: ")
+    if num == "done":
+        break
+    listnum.append(int(num))
 print(f"max number is: {max(listnum)}")
 print(f"min number is: {min(listnum)}")
