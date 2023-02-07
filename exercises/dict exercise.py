@@ -35,5 +35,7 @@ for key, value in dict1.items():
     if dict1[key] != 0:
         dict2[key] = value
 
+print(dict2)
+
 for key2, value2 in dict2.items():
     print(key2, value2)
