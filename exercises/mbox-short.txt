@@ -1564,7 +1564,7 @@ BSP-1420 Update text to clarify "Re-Use Materials..." option in WS Setup
 This automatic notification message was sent by Sakai Collab (https://collab.sakaiproject.org/portal) from the Source site.
 You can modify how you receive notifications at My Workspace > Preferences.
 
-
+From zqian@umich.edu
 
 From louis@media.berkeley.edu Thu Jan  3 17:18:23 2008
 Return-Path: <postmaster@collab.sakaiproject.org>
