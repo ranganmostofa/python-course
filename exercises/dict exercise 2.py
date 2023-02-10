@@ -33,9 +33,9 @@ print(f"Using max(dict1.values()) outputs '{max(dict1.values())}' though there c
 # print(list(dict1.values())[0])
 
 dict2 = {
-    "A": 3,
+    "A": 4,
     "B": 1,
-    "C": 3,
+    "C": 4,
     "D": 3,
     "E": 1,
 
@@ -56,7 +56,8 @@ dict2 = {
 
 print(f"max(dict2) outputs {max(dict2)}")
 print(max(dict2.items()))
-print(max(dict2.items(), key=lambda t: (t[1], t[0])))
+print(max(dict2.items(), key=lambda t: t[1]))
+print(max(dict2.items(), key=lambda t: -ord(t[0])))
 
 dict3 = {}
 

@@ -17,16 +17,23 @@ print(type(d))
 # Concrete -> Set, Dictionary
 #
 
-s1 = {1, 2, 3, 4}
-d1 = {1: "a", 2: "b", 3: "c"}
-print(d1[1])
-print(d1[2])
+s1 = {"first", "second", "third", "fourth"}
+d1 = {
+    "first": "a",
+    "second": "b",
+    "third": "c",
+
+}
+print(f"s1 is not ordered: {s1}")
+print(d1["first"])
+print(d1["second"])
 # print(d1[4])
-print(d1.get(4))
+print(f"d1.get('first') is {d1.get('first')}")
 print(d1.get(4, "defaultSKdgnskdgla"))
+print(f"d1 is still: {d1}\n")
 
 s2 = {d1.get(num) for num in s1}
-print(s2)
+print(f"s2 is not ordered: {s2}")
 
 y_equals_x = {1: 1, 2: 2, 3: 3}
 y_equal_x_squared = {x: x ** 2 for x in y_equals_x.keys()}
