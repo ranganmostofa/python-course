@@ -1,0 +1,10 @@
+import re
+file_name = "letter-frequency.txt"
+
+with open(file_name, "r") as file_obj:
+    while line := file_obj.readline():
+        print(line.find("From: "))
+        if line.find("From: ") == 0:
+            print(f"{line}", end="")
+        # if re.search("From: ", line):
+        #     print(line)

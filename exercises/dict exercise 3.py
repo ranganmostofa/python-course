@@ -22,3 +22,12 @@ for address, number in dict1.items():
     else:
         dict2[domain] += number
 print(dict2)
+print(list(dict1.items()))
+
+list2 = [(c, e) for e, c in dict1.items()]
+
+print(list2)
+
+list2.sort(reverse=True)
+
+print(list2)
