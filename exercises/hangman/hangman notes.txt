@@ -1,0 +1,9 @@
+Host selects a word
+Player selects a letter
+Update list of letters guessed
+If selected letter is in letter list, ask to try again
+If letter is in word, reveal every instance of letter
+Else increase guess count by 1
+If guess count reaches X then game over: player loses
+If every letter of word is guessed, game over: player wins
+Repeat starting at step 2
