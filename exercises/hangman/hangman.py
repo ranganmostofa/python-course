@@ -4,8 +4,8 @@ from hangman_constants import GuessValidationCode, GUESS_VALIDATION_CODE_MAP
 from hangman_utils import choose_word, show_progress, validate_guess
 
 
-dictionary = get_english_words_set(['web2'], alpha=True, lower=False)
-word = choose_word(dictionary)
+word_set = get_english_words_set(['web2'], alpha=True, lower=False)
+word = choose_word(word_set)
 error_counter = 0
 max_errors = 5
 used_letters = set()
