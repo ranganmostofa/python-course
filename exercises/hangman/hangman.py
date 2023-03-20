@@ -11,7 +11,7 @@ max_errors = 5
 used_letters = set()
 word_play = ["_"] * len(word)
 
-print(word)
+print(word)  # Test to see what the word is
 
 while error_counter != max_errors:
     show_progress(word_play)
